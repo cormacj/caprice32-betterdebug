@@ -1,0 +1,3 @@
+* 4.7.0 - Forked from ColinPitrat.
+          Added support for non-standard ROMs (such as the Graduate Software CPM roms)
+          Corrected the spelling of Address in memory tools

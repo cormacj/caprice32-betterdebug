@@ -1,17 +1,13 @@
-![Caprice32 logo](https://raw.githubusercontent.com/ColinPitrat/caprice32/master/resources/cap32logo.bmp)
+![Caprice32 logo](https://raw.githubusercontent.com/cormacj/caprice32-betterdebug/main/resources/cap32logo.bmp)
 # Caprice32 - Amstrad CPC Emulator
 
 (c) Copyright 1997-2015 Ulrich Doewich
 
 (c) Copyright 2016-2021 Colin Pitrat
 
-https://github.com/ColinPitrat/caprice32
+(c) Copyright 2016-2021 Cormac McGaughey
 
-Linux build: [![Linux build Status](https://www.travis-ci.com/ColinPitrat/caprice32.svg?branch=master)](https://www.travis-ci.com/ColinPitrat/caprice32)
-
-Windows build: [![Windows build status](https://ci.appveyor.com/api/projects/status/h795wt2xlttaj6sk?svg=true)](https://ci.appveyor.com/project/ColinPitrat/caprice32)
-
-MacOS build: [![MacOS build status](https://github.com/ColinPitrat/caprice32/actions/workflows/macos.yml/badge.svg)](https://github.com/ColinPitrat/caprice32/actions/workflows/macos.yml)
+https://github.com/cormacj/caprice32-betterdebug
 
 # What is it ?
 
@@ -50,7 +46,7 @@ documented behavior, use `APP_PATH` like in the examples below.
 ### From Git
 
 ```
-git clone https://github.com/ColinPitrat/caprice32.git
+git clone git@github.com:cormacj/caprice32-betterdebug.git
 cd caprice32
 make APP_PATH="$PWD"
 ./cap32
@@ -58,7 +54,7 @@ make APP_PATH="$PWD"
 
 ### From releases
 
-Download a release from https://github.com/ColinPitrat/caprice32/releases.
+Download a release from https://github.com/cormacj/caprice32-betterdebug/tree/main/release/cap32-linux.
 Decompress it and then from a terminal in the resulting directory:
 
 ```
@@ -72,12 +68,12 @@ A SNAP (maintained by a third party) is available at https://snapcraft.io/capric
 
 ## Windows
 
-Download a release from https://github.com/ColinPitrat/caprice32/releases.
+Download a release from https://github.com/cormacj/caprice32-betterdebug/tree/main/release/cap32-linux.
 Decompress it and double click on cap32.exe
 
 # Basic usage
 
-See the [manual page](http://htmlpreview.github.io/?https://github.com/ColinPitrat/caprice32/blob/master/doc/man.html) for more details. If you are really lost, you can simply invoke the emulator without any argument, then press F1 to get the in-emulator menu.
+See the [manual page](http://htmlpreview.github.io/?https://github.com/cormacj/caprice32-betterdebug/blob/main/doc/man.html) for more details. If you are really lost, you can simply invoke the emulator without any argument, then press F1 to get the in-emulator menu.
 
 # Help needed
 
@@ -91,10 +87,6 @@ You can:
   * Port it to iOS so that Mac users can enjoy it too
 
 # Supporting
-
-You can support me on Liberapay:
-
-[<img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg">](https://liberapay.com/ColinPitrat/donate)
 
 # Building and compiling
 
@@ -120,5 +112,6 @@ There are many repositories for caprice32 on GitHub:
   * https://github.com/rofl0r/caprice32
   * https://github.com/MrZammler/caprice32
   * https://github.com/burzumishi/caprice32wx
+  * https://github.com/ColinPitrat/caprice32
 
-So why create another one ? All these repositories are highly inactive. The ones that touched the code added dependencies (wxWidget, GTK) without really adding features.
+So why create another one ? All these repositories are highly inactive (except for ColinPitrat's which is sometimes updated). The ones that touched the code added dependencies (wxWidget, GTK) without really adding features.
