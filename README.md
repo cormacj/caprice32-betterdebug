@@ -5,7 +5,7 @@
 
 (c) Copyright 2016-2021 Colin Pitrat
 
-(c) Copyright 2016-2021 Cormac McGaughey
+(c) Copyright 2023 Cormac McGaughey
 
 https://github.com/cormacj/caprice32-betterdebug
 
